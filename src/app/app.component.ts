@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title: string = 'Northwind';
-  user: string = 'Erdem Duman';
- 
+  title: string = 'northwind';
+  user: string = 'Engin Demiroğ';
+  
 }
-
